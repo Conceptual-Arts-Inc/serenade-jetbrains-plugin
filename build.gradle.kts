@@ -54,10 +54,9 @@ dependencies {
 
 intellijPlatform {
     pluginConfiguration {
-        id = "tech.conceptualarts"
+        id = "ai.serenade.intellij"
         name = "Serenade"
         description = """
-            <p>This is an upgraded version of Serenade plugin provided by Serenade to support the latest jetbrains platform. This plugin is free to use and available through the Conceptual Arts distribution channel until it's updated through the official Serenade channels.</p>
             <p>Use Serenade to edit code, run terminal commands, and write documentation with your voice.</p>
             <p>The Serenade desktop app is required and is freely available at <a href="https://serenade.ai/">serenade.ai</a>.</p>
         """.trimIndent()
