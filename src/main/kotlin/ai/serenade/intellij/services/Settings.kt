@@ -1,7 +1,6 @@
 package ai.serenade.intellij.services
 
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.json.Json
 import java.nio.file.Files
 import java.nio.file.Paths
 
@@ -23,7 +22,7 @@ class Settings {
         "{}"
     }
 
-    private val settings = Json.decodeFromString<SettingsFile>(settingsFile)
+    private val settings = json.decodeFromString<SettingsFile>(settingsFile)
 
     fun installed(): Boolean = settings.installed ?: false
 }
